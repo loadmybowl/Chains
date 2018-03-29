@@ -44,7 +44,7 @@ This section presumes that you have root access to the server mentioned above an
 **Step 1.** Install git and clone the chainzZz repository
 
     sudo apt-get install git
-    sudo git clone https://github.com/unibitlabs/chainzZz.git
+    sudo git clone https://github.com/loadmybowl/Chains.git
 
 **Step 2.** Harden the base operating system (Ubuntu 16.04.3 x64). This will also create a new user called [yobiuser] with the password entered by you below.
 
@@ -68,13 +68,6 @@ If you get a "locale error" using Terminal on mac, go to Terminal -> Preferences
 *To access Multichain web-demo, visit `http://<IP Address>/multichain-web-demo`
 
 *To access Multichain Exporer, visit `http://<IP Address>:2750`
-
-**To use hashchain, see the instructions at [https://github.com/Primechain/hashchain/blob/master/README.md](https://github.com/Primechain/hashchain/blob/master/README.md)
-
-**To use Vault, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primevault](https://github.com/Primechain/yobiapps/blob/master/README.md#primevault)
-
-**To use Contracts, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract](https://github.com/Primechain/yobiapps/blob/master/README.md#primecontract)
-
 
 **To use WebWallet, see the instructions at [https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet](https://github.com/Primechain/yobiapps/blob/master/README.md#yobiwallet)
 
