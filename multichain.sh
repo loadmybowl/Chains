@@ -12,7 +12,7 @@
 chainname=$1
 rpcuser=$2
 rpcpassword=$3
-assetName='yourcoin'
+assetName='unibit'
 multichainVersion='2.0-alpha-1'
 protocol=20001
 networkport=61172
