@@ -215,19 +215,19 @@ cd /var/www/html	# Changing current directory to web server's root directory
 ###
 ## INSTALLING & CONFIGURING HASHCHAIN
 ###
-git clone https://github.com/Primechain/hashchain.git
+# git clone https://github.com/Primechain/hashchain.git
 
 # Configuring Hashchain
-sudo sed -ie 's/RPC_USER =.*;/RPC_USER = "'$rpcuser'";/g' /var/www/html/hashchain/resources.php
-sudo sed -ie 's/RPC_PASSWORD =.*;/RPC_PASSWORD = "'$rpcpassword'";/g' /var/www/html/hashchain/resources.php
-sudo sed -ie 's/RPC_PORT =.*;/RPC_PORT = "'$rpcport'";/g' /var/www/html/hashchain/resources.php
-sudo sed -ie 's/MANAGER_ADDRESS =.*;/MANAGER_ADDRESS = "'$addr'";/g' /var/www/html/hashchain/resources.php
+# sudo sed -ie 's/RPC_USER =.*;/RPC_USER = "'$rpcuser'";/g' /var/www/html/hashchain/resources.php
+# sudo sed -ie 's/RPC_PASSWORD =.*;/RPC_PASSWORD = "'$rpcpassword'";/g' /var/www/html/hashchain/resources.php
+# sudo sed -ie 's/RPC_PORT =.*;/RPC_PORT = "'$rpcport'";/g' /var/www/html/hashchain/resources.php
+# sudo sed -ie 's/MANAGER_ADDRESS =.*;/MANAGER_ADDRESS = "'$addr'";/g' /var/www/html/hashchain/resources.php
 
 
 ###
 ## INSTALLING & CONFIGURING APPS
 ###
-git clone https://github.com/unibitlabs/apps.git
+git clone https://github.com/loadmybowl/apps.git
 
 # Configuring Apps
 sudo sed -ie 's/$CHAIN_NAME =.*;/$CHAIN_NAME = "'$chainname'";/g' /var/www/html/apps/config.php
