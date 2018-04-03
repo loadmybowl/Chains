@@ -248,7 +248,6 @@ sudo sed -ie 's/MANAGER_ADDRESS =.*;/MANAGER_ADDRESS = "'$addr'";/g' /var/www/ht
 ###
 ## INSTALLING & CONFIGURING MULTICHAIN WEB DEMO
 ###
-cd /var/www/html/private
 git clone https://github.com/MultiChain/multichain-web-demo.git
 
 # Configuring Web Demo
